@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Teste para candidato a vaga de desenvolver frontend pagprime" />
+    <meta name="author" content="Reverson" />
+
+    <title>PagPrime</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="../frontendd/assets/img/pagprime.png"
+                    width="120px" alt=""></a>
+            <button
+                class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="#cadastrar">Cadastrar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+
+            <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" />
+
+            <h1 class="masthead-heading text-uppercase mb-0">Reverson</h1>
+
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <p class="masthead-subheading font-weight-light mb-0">Desenvolvedor apaixonado, amante de frontend</p>
+        </div>
+    </header>
+
+    <section class="page-section" id="cadastrar">
+        <div class="container">
+
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Cadastrar</h2>
+
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+
+                    <form id="cadastroForm" name="cadastroForm" novalidate="novalidate">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Nome</label>
+                                <input class="form-control" id="nome" type="text" placeholder="Nome" required="required"
+                                    data-validation-required-message="Informe o nome." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Data de nascimento</label>
+                                <input class="form-control" id="datanascimento" type="date"
+                                    placeholder="Data de nascimento" required="required"
+                                    data-validation-required-message="Informe sua data de nascimento." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>CPF</label>
+                                <input class="form-control" id="cpf" type="number" placeholder="CPF" required="required"
+                                    data-validation-required-message="Informe seu CPF." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>RG</label>
+                                <input class="form-control" id="rg" type="number" placeholder="RG" required="required"
+                                    data-validation-required-message="Informe seu RG." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Nome da mãe</label>
+                                <input class="form-control" id="nomemae" type="text" placeholder="Nome da mãe"
+                                    required="required" data-validation-required-message="Informe o nome da sua mãe." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>CEP</label>
+                                <input class="form-control" id="cep" type="number" placeholder="Cep" required="required"
+                                    data-validation-required-message="Informe seu cep." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Logradouro</label>
+                                <input class="form-control" id="logradouro" type="text" placeholder="Logradouro"
+                                    required="required" data-validation-required-message="Informe seu logradouro." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Número (opcional)</label>
+                                <input class="form-control" id="numero" type="number" placeholder="numero" />
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Complemento</label>
+                                <input class="form-control" id="complemento" type="text" placeholder="Complemento"
+                                    required="required" data-validation-required-message="Informe o complemento." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Bairro</label>
+                                <input class="form-control" id="bairro" type="text" placeholder="Bairro"
+                                    required="required" data-validation-required-message="Informe o bairro." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Cidade</label>
+                                <input class="form-control" id="cidade" type="text" placeholder="Cidade"
+                                    required="required" data-validation-required-message="Informe sua cidade." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Estado</label>
+                                <input class="form-control" id="estado" type="text" placeholder="Estado"
+                                    required="required" data-validation-required-message="Informe seu estado." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>E-mail</label>
+                                <input class="form-control" id="email" type="email" placeholder="E-mail"
+                                    required="required" data-validation-required-message="Informe seu e-mail." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Celular</label>
+                                <input class="form-control" id="celular" type="tel" placeholder="Celular"
+                                    required="required"
+                                    data-validation-required-message="Informe seu número de celular." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Curso</label>
+                                <input class="form-control" id="curso" type="text" placeholder="Curso"
+                                    required="required" data-validation-required-message="Por favor informe o curso." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Campus</label>
+                                <input class="form-control" id="campus" type="text" placeholder="Campus"
+                                    required="required"
+                                    data-validation-required-message="Por favor informe o campus." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <br />
+                        <div id="success"></div>
+                        <div class="form-group"><button class="btn btn-primary btn-xl" id="enviarCadastro"
+                                type="submit">Cadastrar</button></div>
+                    </form>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Localização</h4>
+                    <p class="lead mb-0">
+                        Rua dos sonhos, número 123
+                        <br />
+                        Faculdade DevEterno
+                    </p>
+                </div>
+
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Redes sociais</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                </div>
+
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">Faculdade dos sonhos</h4>
+                    <p class="lead mb-0">
+                        Feito de dev para dev
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
